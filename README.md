@@ -9,4 +9,4 @@ Requirements:
 * Must be runnable on Windows 10
 * Written in Java or Groovy, using Selenium
 * Chrome browser
-   * Use of WebDriverManager highly recommended
+   * Use of WebDriverManager highly recommended# webstaurantstore-interview
