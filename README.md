@@ -1,19 +1,5 @@
 # WebstaurantStore Code Screen Task
 
-## Author's Notes
-
-This project demonstrates the author's ability to develop a Maven-based test automation mini-framework using Java, Selenium WebDriver, and TestNG. The implementation includes, but is not limited to, the following concepts:
-
-* Java design patterns: Singleton, Builder
-* Java object-oriented programming (OOP), inheritance, interface, abstraction, polymorphism
-* Selenium Page Object Model, fluent waits, and Domain-Specific Language (DSL)
-
-This is not the final version; there are always opportunities for improvement and refactoring. The implementation took two short but joyful evenings, accompanied by coding vibe music and a cup of coffee. 🎵☕
-
-Additionally, the below requirement states, _'Check the search result ensuring every product has the word "Table" in its title.'_ However, this is not the case for the item _'metro cr2430dss drive-thru order prep station with stainless steel shelving - 31 3/4" x 27 3/4" x 65 3/4"'_, and the test fails earlier due to an unexpected issue (see the screenshot below). In the code, the author made a tweak to demonstrate that the test is runnable from end to end (see `SearchResultPage#assertItemsOnTheCurrentPageContain`).
-
-<img width="1540" alt="screenshot_rest_failure" src="https://github.com/mrtsfn601/webstaurantstore-interview/assets/80962941/65a46d23-c74b-441f-a6ba-82dbdc1f09b9">
-
 ## Task
 
 Create a Maven-based Java or Groovy project and automate the test case described below. Once
@@ -54,4 +40,22 @@ Please add your code to GitHub.com and send the project link.
 
 #### Troubleshooting
 
-1. Java version: in project settings, select JDK 17.
+1. Error: Java release version 17 is not supported. Resolution: Download and configure JDK 17.
+
+## Author's Notes
+
+This project demonstrates the author's ability to develop a Maven-based test automation mini-framework using Java, Selenium WebDriver, and TestNG. The implementation includes, but is not limited to, the following concepts:
+
+* Java design patterns: Singleton, Builder
+* Java object-oriented programming (OOP), inheritance, interface, abstraction, polymorphism
+* Selenium Page Object Model, fluent waits, and Domain-Specific Language (DSL)
+
+This is not the final version; there are always opportunities for improvement and refactoring. The implementation took two short but joyful evenings, accompanied by coding vibe music and a cup of coffee. 🎵☕
+
+Additionally, the requirement states, _'Check the search result ensuring every product has the word "Table" in its title.'_ However, this is not the case for the item _'metro cr2430dss drive-thru order prep station with stainless steel shelving - 31 3/4" x 27 3/4" x 65 3/4"'_, and the test fails earlier due to an unexpected issue (see the screenshot below). In the code, the author made a tweak to demonstrate that the test is runnable from end to end (see `SearchResultPage#assertItemsOnTheCurrentPageContain`).
+
+<img width="1540" alt="screenshot test failure" src="https://github.com/mrtsfn601/webstaurantstore-interview/assets/80962941/65a46d23-c74b-441f-a6ba-82dbdc1f09b9">
+
+Below is evidence that the test runs on a Windows 10 machine.
+
+<img width="1540" alt="screenshot test failure" src="https://github.com/mrtsfn601/webstaurantstore-interview/assets/80962941/f3825e44-b85b-42a6-b262-e17df8574cad">
