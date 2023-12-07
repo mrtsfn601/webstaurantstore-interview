@@ -14,7 +14,6 @@ Additionally, the below requirement states, _'Check the search result ensuring e
 
 <img width="1540" alt="screenshot_rest_failure" src="https://github.com/mrtsfn601/webstaurantstore-interview/assets/80962941/65a46d23-c74b-441f-a6ba-82dbdc1f09b9">
 
-
 ## Task
 
 Create a Maven-based Java or Groovy project and automate the test case described below. Once
@@ -52,3 +51,7 @@ Please add your code to GitHub.com and send the project link.
 1. Clone the project: `git clone git@github.com:mrtsfn601/webstaurantstore-interview.git`
 1. Go to the project root: `cd webstaurantstore-interview`
 1. Run the project: `mvn clean test`
+
+#### Troubleshooting
+
+1. Java version: in project settings, select JDK 17.
