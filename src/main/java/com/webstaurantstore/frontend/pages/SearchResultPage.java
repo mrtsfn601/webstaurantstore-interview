@@ -47,6 +47,7 @@ public class SearchResultPage extends BasePage {
         items.forEach(item -> {
             String actualDesc = item.getText().toLowerCase();
             assertTrue(actualDesc.contains(expectedDesc)
+        // found item with description=metro cr2430dss drive-thru order prep station with stainless steel shelving - 31 3/4" x 27 3/4" x 65 3/4" contains table
                             || actualDesc.contains("drive-thru order prep station with stainless steel shelving"),
                     String.format("Expected: found item with description=%s contains %s", actualDesc, expectedDesc));
         });

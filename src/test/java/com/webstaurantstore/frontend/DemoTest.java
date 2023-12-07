@@ -16,7 +16,6 @@ public class DemoTest extends BaseSeleniumTest {
                 .assertCartContainsItems(1)
                 .emptyCart()
                 .assertCartContainsItems(0);
-
     }
 
 }

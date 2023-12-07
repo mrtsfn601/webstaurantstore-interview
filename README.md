@@ -1,5 +1,15 @@
 # WebstaurantStore Code Screen Task
 
+## Author's Notes
+
+This project demonstrates author's ability n developing a Maven-based test automation mini-framework using Java, Selenium WebDriver, and TestNG. The implementation includes, but is not limited to, the following concepts:
+
+* Java design patterns: Singleton, Builder
+* Java object-oriented programming (OOP), inheritance, interface, abstraction, polymorphism
+* Selenium Page Object Model, fluent waits and Domain-Specific Language (DSL)
+
+This is not the final version; there are always opportunities for improvement and refactoring. The implementation took two short but joyful evenings, accompanied by coding vibe music and a cup of coffee.
+
 ## Task
 
 Create a Maven-based Java or Groovy project and automate the test case described below. Once
@@ -37,9 +47,3 @@ Please add your code to GitHub.com and send the project link.
 1. Clone the project: `git clone git@github.com:mrtsfn601/webstaurantstore-interview.git`
 1. Go to the project root: `cd webstaurantstore-interview`
 1. Run the project: `mvn clean test`
-
-This project demonstrates author's ability to develop a Maven-based test automation mini-framework, if you will, with Java, Selenium WebDriver, TestNG, including but not limited to the following concepts:
-
-* Java design patterns: Singleton, Builder
-* Java OOP, inheritance, interface, abstraction, polymorphism
-* Selenium Page Object Model, fluent waits and DSL
