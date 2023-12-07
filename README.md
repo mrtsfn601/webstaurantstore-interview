@@ -2,13 +2,13 @@
 
 ## Author's Notes
 
-This project demonstrates author's ability n developing a Maven-based test automation mini-framework using Java, Selenium WebDriver, and TestNG. The implementation includes, but is not limited to, the following concepts:
+This project demonstrates the author's ability to develop a Maven-based test automation mini-framework using Java, Selenium WebDriver, and TestNG. The implementation includes, but is not limited to, the following concepts:
 
 * Java design patterns: Singleton, Builder
 * Java object-oriented programming (OOP), inheritance, interface, abstraction, polymorphism
-* Selenium Page Object Model, fluent waits and Domain-Specific Language (DSL)
+* Selenium Page Object Model, fluent waits, and Domain-Specific Language (DSL)
 
-This is not the final version; there are always opportunities for improvement and refactoring. The implementation took two short but joyful evenings, accompanied by coding vibe music and a cup of coffee.
+This is not the final version; there are always opportunities for improvement and refactoring. The implementation took two short but joyful evenings, accompanied by coding vibe music and a cup of coffee. 🎵☕
 
 ## Task
 
